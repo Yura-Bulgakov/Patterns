@@ -7,6 +7,7 @@ import ru.example.request.handler.RequestComplianceHandler;
 import ru.example.request.handler.RequestSchemaHandler;
 
 public class Task2 {
+
     public static void main(String[] args) {
         AbstractRequestHandler requestSchemaHandler = new RequestSchemaHandler();
         AbstractRequestHandler requestComplianceHandler = new RequestComplianceHandler();
