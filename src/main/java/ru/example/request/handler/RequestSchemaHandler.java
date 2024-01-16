@@ -2,10 +2,10 @@ package ru.example.request.handler;
 
 import ru.example.request.Request;
 
-public class RequestSchemaHandler extends AbstractRequestHandler{
+public class RequestSchemaHandler extends AbstractRequestHandler {
     @Override
     protected boolean makeCheck(Request request) {
-        if (checkRequestEmptyFields(request)){
+        if (checkRequestEmptyFields(request)) {
             System.out.println("Заявка отклонена! Все поля должны быть заполнены!");
             return false;
         }
@@ -13,7 +13,7 @@ public class RequestSchemaHandler extends AbstractRequestHandler{
         return true;
     }
 
-    private boolean checkRequestEmptyFields(Request request){
+    private boolean checkRequestEmptyFields(Request request) {
         return request.getCreditAmount() <= 0 ||
                 request.getFullName().isEmpty() ||
                 request.getEmail().isEmpty() ||

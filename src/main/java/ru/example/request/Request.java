@@ -8,7 +8,7 @@ public class Request {
     private boolean goodCreditHistory;
     private double interest;
     private double creditAmount;
-    private  double minPayment;
+    private double minPayment;
     private boolean complianceFriendly;
 
     public Request(String fullName, String phoneNumber, String email, double income, boolean goodCreditHistory,

@@ -3,7 +3,7 @@ package ru.example.card.factory;
 import ru.example.card.Card;
 import ru.example.card.CreditCard;
 
-public class CreditCardFactory implements CardFactory{
+public class CreditCardFactory implements CardFactory {
     private int limit;
 
     public CreditCardFactory(int limit) {

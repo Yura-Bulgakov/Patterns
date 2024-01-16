@@ -1,7 +1,10 @@
 package ru.example;
 
 import ru.example.request.Request;
-import ru.example.request.handler.*;
+import ru.example.request.handler.AbstractRequestHandler;
+import ru.example.request.handler.RequestAcceptanceHandler;
+import ru.example.request.handler.RequestComplianceHandler;
+import ru.example.request.handler.RequestSchemaHandler;
 
 public class Task2 {
     public static void main(String[] args) {

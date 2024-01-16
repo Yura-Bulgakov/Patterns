@@ -3,7 +3,7 @@ package ru.example.card.factory;
 import ru.example.card.Card;
 import ru.example.card.DebitCard;
 
-public class DebitCardFactory implements CardFactory{
+public class DebitCardFactory implements CardFactory {
     private int interest;
 
     public DebitCardFactory(int interest) {
